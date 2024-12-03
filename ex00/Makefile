@@ -10,14 +10,14 @@
 #                                                                              #
 # **************************************************************************** #
 
-TARGET =		a.out
+TARGET =		Claptrap
 
 CXX =			c++
 
 CXXFLAGS =		-Wall -Wextra -Werror -I. #-g3 -fsanitize=address
 
-SRCS =			main.cpp			\
-				Fixed.cpp			\
+SRCS =			main.cpp				\
+				ClapTrap.cpp			\
 
 OBJS =			$(SRCS:.cpp=.o)
 
